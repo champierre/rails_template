@@ -1,4 +1,4 @@
-FROM ruby:2.7.1
+FROM ruby:2.7.2
 LABEL maintainer="junya@champierre.com"
 
 RUN apt-get update -yqq && apt-get install -yqq --no-install-recommends \
